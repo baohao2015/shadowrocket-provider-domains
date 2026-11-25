@@ -1,4 +1,5 @@
 # OpenAI | Shadowrocket RULE-SET
+# Reviewed: 2026-11-25
 DOMAIN,api.statsig.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.openaimerge.com
@@ -39,5 +40,6 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.fm
 DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,sora.com

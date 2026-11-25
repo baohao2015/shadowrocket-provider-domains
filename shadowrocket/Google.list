@@ -1,10 +1,10 @@
 # Google | Shadowrocket RULE-SET
-DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
-DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+# Reviewed: 2026-11-25
 DOMAIN,apps5.oingo.com
 DOMAIN,avail.googleflights.net
 DOMAIN,clickserve.cc-dt.com
 DOMAIN,dartsearch-cn.net
+DOMAIN,g.ai
 DOMAIN,gongyichuangyi.net
 DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN,googleapis-cn.com
@@ -13,12 +13,8 @@ DOMAIN,googleflights-cn.net
 DOMAIN,gstatic-cn.com
 DOMAIN,qiao-cn.com
 DOMAIN,qpx.googleflights.net
-DOMAIN,recaptcha-cn.net
-DOMAIN,recaptcha.net
 DOMAIN,www.destinationurl.com
 DOMAIN,www.pxcc.com
-DOMAIN,www.recaptcha-cn.net
-DOMAIN,www.recaptcha.net
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -61,6 +57,7 @@ DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appbridge.ca
 DOMAIN-SUFFIX,appbridge.io
 DOMAIN-SUFFIX,appbridge.it
+DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,apture.com
 DOMAIN-SUFFIX,area120.com
 DOMAIN-SUFFIX,asp-cc.com
@@ -171,6 +168,7 @@ DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,chronicle.security
 DOMAIN-SUFFIX,chroniclesec.com
 DOMAIN-SUFFIX,cloudburstresearch.com
+DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,cloudproxy.app
 DOMAIN-SUFFIX,cloudrobotics.com
 DOMAIN-SUFFIX,cobrasearch.com
@@ -215,6 +213,10 @@ DOMAIN-SUFFIX,financeleadsonline.com
 DOMAIN-SUFFIX,firebase.com
 DOMAIN-SUFFIX,firebase.dev
 DOMAIN-SUFFIX,firebase.io
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,firebasedatabase.app
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebasestorage.app
 DOMAIN-SUFFIX,fitbit.com
 DOMAIN-SUFFIX,flutter.dev
 DOMAIN-SUFFIX,flutterapp.com
@@ -605,6 +607,7 @@ DOMAIN-SUFFIX,picasaweb.org
 DOMAIN-SUFFIX,picnik.com
 DOMAIN-SUFFIX,pittpatt.com
 DOMAIN-SUFFIX,pixate.com
+DOMAIN-SUFFIX,pkg.dev
 DOMAIN-SUFFIX,plus.codes
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerproject.org
@@ -617,8 +620,11 @@ DOMAIN-SUFFIX,publishproxy.com
 DOMAIN-SUFFIX,questvisual.com
 DOMAIN-SUFFIX,quickoffice.com
 DOMAIN-SUFFIX,quiksee.com
+DOMAIN-SUFFIX,recaptcha-cn.net
+DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,revolv.com
 DOMAIN-SUFFIX,ridepenguin.com
+DOMAIN-SUFFIX,run.app
 DOMAIN-SUFFIX,savethedate.foo
 DOMAIN-SUFFIX,saynow.com
 DOMAIN-SUFFIX,schemer.com
@@ -665,6 +671,7 @@ DOMAIN-SUFFIX,verilystudywatch.org
 DOMAIN-SUFFIX,wallet.com
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,web.dev
 DOMAIN-SUFFIX,webappfieldguide.com
 DOMAIN-SUFFIX,webmproject.org
