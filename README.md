@@ -5,8 +5,8 @@
 | 服务 | 规则文件 | Raw 订阅 | 条数 |
 | --- | --- | --- | ---: |
 | Google · Gmail、Workspace、Gemini、AI Studio、Antigravity、YouTube、Play、Cloud | [Google.list](shadowrocket/Google.list) | [Raw](https://raw.githubusercontent.com/baohao2015/shadowrocket-provider-domains/main/shadowrocket/Google.list) | 869 |
-| Anthropic · Claude、Desktop / Cowork、Claude Code、API、MCP、Claude Platform on AWS | [Claude.list](shadowrocket/Claude.list) | [Raw](https://raw.githubusercontent.com/baohao2015/shadowrocket-provider-domains/main/shadowrocket/Claude.list) | 58 |
-| OpenAI · ChatGPT、Codex、API、Sora、Prism、OpenAI.fm | [OpenAI.list](shadowrocket/OpenAI.list) | [Raw](https://raw.githubusercontent.com/baohao2015/shadowrocket-provider-domains/main/shadowrocket/OpenAI.list) | 44 |
+| Anthropic · Claude、Desktop / Cowork、Claude Code、API、MCP、Claude Platform on AWS | [Claude.list](shadowrocket/Claude.list) | [Raw](https://raw.githubusercontent.com/baohao2015/shadowrocket-provider-domains/main/shadowrocket/Claude.list) | 63 |
+| OpenAI · ChatGPT、Codex、API、Sora、Prism、OpenAI.fm | [OpenAI.list](shadowrocket/OpenAI.list) | [Raw](https://raw.githubusercontent.com/baohao2015/shadowrocket-provider-domains/main/shadowrocket/OpenAI.list) | 46 |
 
 ## 在 Shadowrocket 使用
 
@@ -23,7 +23,7 @@ GitHub 的 `github.com/…/blob/main/…` 是浏览文件的 HTML 页面。点�
 ## 收录范围和维护
 
 - Google 包含已知品牌顶级域、地区域、产品域及其基础设施。Cloud Run、App Engine、Firebase 和 Artifact Registry 的托管后缀也会匹配使用 Google 默认域名的第三方项目。Antigravity 的 API 和区域端点由 `googleapis.com` 覆盖，更新服务由 `run.app` 覆盖。
-- Claude 收录官方服务、登录、内容、更新和公开的 Claude Platform on AWS 商用区域端点。后者按具体主机匹配。Claude Code 的部分安装方式和插件还依赖 Google Cloud Storage、npm 或 GitHub，可由相应规则处理。
+- Claude 收录官方服务、登录、内容、更新和公开的 Claude Platform on AWS 商用区域端点。Claude Artifacts 使用的共享 JavaScript CDN 按官方列出的主机名精确匹配，Google Fonts 由 Google 表覆盖。Claude Code 的部分安装方式和插件还依赖 Google Cloud Storage、npm 或 GitHub，可由相应规则处理。 [Claude Desktop 网络要求](https://code.claude.com/docs/en/desktop#network-access-requirements)
 - OpenAI 收录 ChatGPT、Codex、API、资源和有依据的第三方主机。LiveKit 按 ChatGPT 项目域和已知主机匹配。Azure Web PubSub 使用有 ChatGPT 专用前缀和 Azure 服务后缀的 `DOMAIN-WILDCARD`，需要 Shadowrocket 2.2.65 或更新版本。Intercom 和 SendGrid 的通用后缀可按所用功能另配。旧表中的 `ai.com` 已转为独立服务。 [Shadowrocket 更新记录](https://t.me/s/ShadowrocketNews/966) · [LiveKit 域名说明](https://docs.livekit.io/deploy/admin/firewall/) · [ai.com 官方公告](https://ai.com/company-news/ai-com-launch)
 - 每份清单仅收录域名。 `DOMAIN` 精确匹配，`DOMAIN-SUFFIX` 覆盖域名本身和各级子域名，`DOMAIN-WILDCARD` 按主机名模式匹配。IP 直连、用户自定义域名和服务未公开的临时端点需按实际连接处理。
 
@@ -39,3 +39,4 @@ YouTube 与 Google 使用同一策略时，只需要订阅 `Google.list`。要�
 - v2fly 社区规则。展开 Google 的子集并合并重复规则，保留域名匹配范围。 [Google](https://github.com/v2fly/domain-list-community/blob/98c43cad27fa8f02043858763709fe4a95432ffb/data/google) · [Anthropic](https://github.com/v2fly/domain-list-community/blob/98c43cad27fa8f02043858763709fe4a95432ffb/data/anthropic) · [OpenAI](https://github.com/v2fly/domain-list-community/blob/98c43cad27fa8f02043858763709fe4a95432ffb/data/openai) · [上游 MIT 许可证](LICENSE.v2fly)
 - 对照 blackmatrix7 的 Loon 列表、Sukka 的 AI 规则、YUDIDIFEI 的 Shadowrocket AI 列表和本机 Shadowrocket 域名规则。 [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script/tree/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon) · [Sukka](https://github.com/SukkaW/Surge/blob/master/Source/non_ip/ai.conf) · [YUDIDIFEI](https://github.com/YUDIDIFEI/Scripts/blob/HEAD/rule/Shadowrocket/AI/AI.list)
 - 对照 MetaCubeX 的 Google、Anthropic、OpenAI、YouTube 规则，以及 blackmatrix7 的 YouTube 规则。Google 已覆盖上游的 Google CDN 正则范围。`gtm.oasisfeng.com` 是第三方网站指向 Google Tag Manager 的自定义域名，由该网站自己的策略处理。 [MetaCubeX](https://github.com/MetaCubeX/meta-rules-dat/tree/ce616601064422e7acfe75ea201549dc7372becf/geo/geosite/classical) · [blackmatrix7 YouTube](https://github.com/blackmatrix7/ios_rule_script/blob/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/YouTube/YouTube.list)
+- OpenAI 表按具体主机匹配 Statsig API 和事件端点。 [Statsig 域名说明](https://docs.statsig.com/infrastructure/statsig_domains)

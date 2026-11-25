@@ -8,6 +8,7 @@ DOMAIN,challenges.cloudflare.com
 DOMAIN,chatgpt.turn.livekit.cloud
 DOMAIN,client-api.arkoselabs.com
 DOMAIN,events.statsigapi.net
+DOMAIN,featuregates.org
 DOMAIN,forwarder.workos.com
 DOMAIN,frontend-apps-multi-region.workos.com
 DOMAIN,host.livekit.cloud
@@ -28,6 +29,7 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,setup.workos.com
+DOMAIN,statsigapi.net
 DOMAIN,turn.livekit.cloud
 DOMAIN,workos.imgix.net
 DOMAIN-SUFFIX,chat.com

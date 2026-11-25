@@ -35,10 +35,15 @@ DOMAIN,aws-external-anthropic.us-east-2.api.aws
 DOMAIN,aws-external-anthropic.us-west-1.api.aws
 DOMAIN,aws-external-anthropic.us-west-2.api.aws
 DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.tailwindcss.com
 DOMAIN,cdn.usefathom.com
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,code.jquery.com
 DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,o1158394.ingest.us.sentry.io
 DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,unpkg.com
 DOMAIN-SUFFIX,ant.dev
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anthropic.team
