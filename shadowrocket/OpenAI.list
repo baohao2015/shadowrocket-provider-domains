@@ -5,7 +5,7 @@ DOMAIN,browser-intake-datadoghq.com
 DOMAIN,cdn.openaimerge.com
 DOMAIN,cdn.workos.com
 DOMAIN,challenges.cloudflare.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,chatgpt.turn.livekit.cloud
 DOMAIN,client-api.arkoselabs.com
 DOMAIN,events.statsigapi.net
 DOMAIN,forwarder.workos.com
@@ -19,7 +19,6 @@ DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,o33249.ingest.us.sentry.io
 DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openai.com.cdn.cloudflare.net
 DOMAIN,openai.qualtrics.com
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaiassets.blob.core.windows.net
@@ -40,6 +39,8 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openai.fm
 DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,sora.com
+DOMAIN-WILDCARD,chatgpt-async-webps-prod-*-*.webpubsub.azure.com
